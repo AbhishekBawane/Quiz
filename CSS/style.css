@@ -1,0 +1,52 @@
+body {
+    padding: 50px;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background:  linear-gradient(to right, red, blue, red);
+}
+
+.quiz-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: Gray;
+}
+
+#answer-list {
+    list-style: none;
+    padding: 0;
+    color: rgb(0, 187, 255);
+    font-weight:100%;
+}
+
+#answer-list li {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#answer-list li:hover {
+    background-color: rgb(245, 245, 245);
+}
+
+#answer-list input[type="radio"] {
+    margin-right: 10px;
+}
+
+.correct {
+    background-color: rgb(144, 238, 144) !important;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
